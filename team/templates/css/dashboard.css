@@ -1,0 +1,29 @@
+.summary{
+	
+}
+.summary .progress{
+	font-size: 1em !important; 
+}
+.aggregate table thead th{
+	background: #2f4260;
+	color: white;
+	border-right: 1px solid white;
+}
+.aggregate table td .progress{
+	font-size: 1em !important;
+}
+.status-task{
+	font-style: oblique;
+	font-weight: bold;
+}
+.genreport button{
+	cursor: pointer;
+}
+.mybox{
+	width: 20px;
+	height: 20px;
+	border: 1px solid gray;
+}
+.key value{
+	font-weight: bold;
+}

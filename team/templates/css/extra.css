@@ -1,0 +1,636 @@
+.myworkspace {
+	margin-left: 20px; 
+}
+.myworkspace hr{
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+img.collabo{
+	width: 47px;
+	height: 47px;
+}
+.myworkspace h4{ 
+}
+.myworkspace label{
+	font-weight: bold;
+	margin-right: 10px;
+	width: 150px;
+}
+.myworkspace none{
+	color: gray;
+}
+
+.stopwatch{
+	font-size: 1.5em;
+	margin-left: 15px;
+}
+.timer{
+	font-size: 1.7em;
+	margin-left: 15px;
+	color: #dc3545;
+	margin-bottom: 0;
+}
+.ck-panel table{
+	font-size: 0.95em;
+	border-spacing: 0 !important;
+}
+.ck-panel table tr{
+ margin: 0 !important; 
+ border: none !important;
+}
+.mytable tr td, .mytable tbody tr th{
+	padding: 5px 5px !important; 
+	margin: 0 !important; 
+	border: none !important;
+}
+.mytable button{
+	padding: 1px 8px;
+	font-size: 0.9em;
+	margin-left: 5px;
+}
+.newview{
+	transition: width 1s;
+}
+.viewFit{
+	max-width: 70%;
+}
+.detail{
+	margin-left: 10%;
+}
+.detail detail{
+	margin-bottom: 20px;
+
+}
+.icon-align-bottom{
+	vertical-align: text-bottom;
+}
+.pointer{
+	cursor: pointer;
+}
+.detail detail label{
+	width: 150px;
+	font-weight: bold;
+}
+.detail detail input{
+	min-width: 300px;
+	padding: 3px 6px;
+	margin-bottom: 20px;
+	border: 0px solid gray;
+	margin-right: 20px;
+	font-size: 1.1em;
+	background: white;
+	border-radius: 2px;
+}
+.detail detail textarea{
+	min-width: 300px;
+	padding: 3px 6px;
+	margin-bottom: 20px;
+	border: 0px solid gray;
+	margin-right: 20px;
+	font-size: 1.1em;
+	background: white;
+	border-radius: 2px;
+}
+.detail detail input:focus{
+	/* outline-width: 0; */
+}
+.detail detail button{
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+
+#assign{
+	border: none;
+	color: #28a745;
+	background: white;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.chatbox-ck{
+	width: 600px;
+	min-width: 390px;
+	margin-top: 10px;
+	margin-left: 20%;
+}
+.chatlogs-ck{
+	background: lightgrey;
+	padding: 10px;
+	width: 100%;
+	height: 400px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.private-ck{
+}
+.chatlogs-ck::-webkit-scrollbar {
+	width: 10px;
+}
+.chatlogs-ck::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.1);
+}
+.chat-ck{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.mynew a{
+	color: blue;
+	text-decoration: none;
+	font-size: 1.4em;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.mynew h5{
+	border-bottom: 1px solid white;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	margin-left: 10%;
+	animation-name: climbUp-extra;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+.mynew h5 value{
+	color: gray;
+	font-size: 0.8em;
+}
+.chat-ck .photo-ck{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.chat-ck .photo-ck img{
+	width: 100%;
+}
+.chat-ck .message-ck{
+	width: 65%;
+	padding: 5px 5px;
+	margin: 5px 10px 0;
+	border-radius: 4px;
+	color: white;
+}
+.friend .message-ck{
+	background: #28a745;
+}
+.self .message-ck{
+	background: #17a2b8;
+	order: -1;
+	margin-left: 20%;
+}
+.chat-form-ck{
+	margin-left: 5px;
+	margin-top: 10px;
+	display: flex;
+	align-items: flex-start;
+}
+.chat-form-ck textarea{
+	background: #fbfbfb;
+	width: 85%;
+	height: 50px;
+	border: 2px solid lightgrey;
+	resize: none;
+	padding: 10px;
+}
+.chat-form-ck textarea:focus{
+	background: #fff;
+}
+.chat-form-ck textarea::-webkit-scrollbar {
+	width: 10px;
+}
+.chat-form-ck textarea::-webkit-scrollbar {
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.message-list{
+	margin-top: 10px;
+}
+.nav h3{
+	margin-left: 40px;
+	color: gray;
+	border-bottom: 1px solid white;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	animation-name: climbUp-extra;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+.message-list ul{
+	list-style: none;
+}
+.message-list ul hr{
+	margin: 4px;
+}
+.message-list ul li{
+	display: flex;
+	justify-content: start;
+	cursor: pointer;
+}
+.message-list .member-photo{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.message-list .member-photo img{
+	width: 100%;
+}
+.message-list .textchat-info{
+	padding-top: 5px;
+	margin-left: 10px;
+	
+}
+.message-list .infor-ck{
+	font-weight: bold;
+}
+.message-list .text-ck{
+	color: gray;
+}
+.mytasks input{
+	padding: 5px 10px;
+	margin-left: 10px;
+	border-radius: 3px;
+	border: 1px solid lightgrey;
+}
+.saver{
+	cursor: pointer;
+}
+.notification-bar{
+	font-style: oblique;
+	font-weight: bold;
+	cursor: pointer;
+}
+.mytask-list ul{
+	list-style: none;
+	padding: 0px 10px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.mytask-list ul li{
+	/* color: black; */
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 5px;
+	padding-top: 1px;
+	margin-left: 10px;
+	/* border-bottom: 1px solid lightgrey; */
+}
+.mytask-list ul li label{
+	color: #dc3545;
+	margin-right: 5px;
+}
+.mytask-list h5{
+	color: grey;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.mytask-list hr{
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+.mytask-list button{
+	padding: 1px 5px;
+}
+.today{
+	color: green;
+	font-weight: bold;
+	line-height: 3.5;
+	font-size: 0.8em
+}
+#clock{
+	color:  #28a745;
+}
+.mytask-title{
+	font-size: 1.1em;
+	font-style: oblique;
+}
+.mytask-due{
+	font-weight: bold;
+}
+.mytask-details button{
+	/* box-shadow: none; */
+	border: none;
+	cursor: pointer;
+}
+.notify-wrapper{
+	position: relative;
+}
+.notifylist{
+	position: absolute;
+	left: 0;
+	display: none;
+	background-color: lightgrey;
+	padding: 10px 10px;
+	min-width: 300px;
+	transform: translateX(0);
+	z-index: 1001;
+	opacity: 0;
+	max-height: 250px;
+	overflow-y: auto;
+	box-shadow: 2px 2px 2px gray;
+}
+.notifylist hr{
+	margin-top: 2px;
+}
+.notifylist ul{
+	list-style: none;
+	padding-left: 2px;
+}
+.notifylist ul li{
+	padding: 0;
+	font-size: 13px;
+}
+.notifylist ul li label{
+	color: gray;
+}
+.ck-btn-sm{
+	border: none;
+	border-bottom-width: 1px;
+	cursor: pointer;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.create-list ul{
+	margin-top: 10px;
+	padding: 10px 10px;
+	list-style: none;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+.create-list ul li{
+	opacity: 0;
+	transform: translateX(-100px);
+	display: none;
+}
+.create-list ul li button{
+	display: none;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+.create-list ul hr{
+	margin-bottom: 0;
+}
+.appear{
+	opacity: 1;
+	transform: translateX(0);
+}
+.update{
+	font-size: 1.1em;
+	background: gray;
+	color: white;
+	width: 0;
+	overflow-x: hidden;
+	/* animation-name: updateEffect;
+	animation-duration: 1s;
+	animation-fill-mode: forwards; */
+}
+.ck-item{
+	cursor: pointer;
+}
+.ck-item:hover,.ck-item:focus{
+	background: gray;
+}
+.popup-table{
+	margin-top: 0;
+}
+.popup-table th{
+	color: black;
+}
+#acceptedStatus{
+	border-radius: 5px;
+}
+#closestatus{
+	margin-top: 0;
+}
+.file-manager h4{
+	padding-left: 30px;
+}
+.file-manager h6{
+	color:  #28a745;
+	cursor: pointer;
+}
+.file-manager table{
+	font-size: 15px;
+}
+.day{
+	color: gray;
+	font-style: normal;
+}
+.myaccordion{
+	display: inline-block;
+	vertical-align: top;
+}
+.myaccordion ul{
+	list-style: none;
+	display: none;
+	font-size: 1em;
+}
+.myaccordion ul a{
+	color: black;
+}
+.myaccordion ul value{
+	font-size: 0.9em;
+}
+#showSubtasks{
+	font-size: 0.8em;
+	border-radius: 50%;
+}
+.mytask-title{
+	cursor: pointer;
+}
+.popup {
+  min-width: 33.333333%;
+  min-height: 100px;
+  padding: 15px;
+  left: 0;
+  margin-left: 33.333333%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: white;
+  position: absolute;
+  top: -100%;
+  box-shadow: 5px 5px 5px #000;
+  z-index: 10001;
+}
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.6);
+  z-index: 10000;
+}
+
+/*Animations*/
+.slideFromRight{
+	animation-name: slidefrom-right;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+.slideToappear{
+	animation-name: slideto-appear;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+
+}
+.viewSlideappear-fromRight{
+	animation-name: viewSlideappear-fromRight;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+.viewSlideappear-fromLeft{
+	animation-name: viewSlideappear-fromLeft;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+.viewSlide-disappear-toLeft{
+	animation-name: viewSlide-disappear-toLeft;
+	animation-duration: 0.8s;
+	animation-fill-mode: forwards;
+}
+.viewSlide-disappear-toRight{
+	animation-name: viewSlide-disappear-toRight;
+	animation-duration: 0.8s;
+	animation-fill-mode: forwards;
+}
+@keyframes viewSlide-disappear-toRight{
+	from{
+		transform: translateX(0px);
+		opacity: 1;
+		}to {
+		transform: translateX(900px);
+		opacity: 0;	
+		}
+}
+@keyframes viewSlideappear-fromLeft{
+	from{
+		transform: translateX(-900px);
+		opacity: 0;
+		}to {
+		transform: translateX(0px);
+		opacity: 1;	
+		}
+}
+@keyframes viewSlide-disappear-toLeft{
+	from{
+		transform: translateX(0px);
+		opacity: 1;
+		}to {
+		transform: translateX(-900px);
+		opacity: 0;	
+		}
+}
+@keyframes viewSlideappear-fromRight{
+	from{
+		transform: translateX(900px);
+		opacity: 0;
+		}to {
+		transform: translateX(0px);
+		opacity: 1;	
+		}
+}
+@keyframes update{
+	from{
+		transform: translateX(0);
+		opacity: 0;
+		}to {
+		transform: translateX(-300px);
+		opacity: 1;	
+		}
+}
+@keyframes slidefrom-right{
+	from{
+		transform: translateX(0);
+		opacity: 0;
+		}to {
+		transform: translateX(-300px);
+		opacity: 1;	
+		}
+}
+@keyframes slideto-appear{
+	from{
+		transform: translateX(-100px);
+		opacity: 0;
+		}to {
+		transform: translateX(0);
+		opacity: 1;	
+		}
+}
+@keyframes climbUp-extra{
+	from {
+		padding-bottom: 10px;
+		border-bottom: 1px solid white;
+	}to {
+		padding-bottom: 3px;
+		border-bottom: 1px solid lightgrey ;
+	}
+}
+
+
+
+.mini-list ul {
+    margin-left: 20px;
+    padding: 0;
+}
+
+/* Style the list items */
+.mini-list ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 5px 8px 5px 40px;
+    background: #eee;
+    font-size: 0.9em;
+    transition: 0.2s;
+	cursor: pointer;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Darker background-color on hover */
+.mini-list ul li:hover {
+    background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+.mini-list ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+.mini-list ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+/* Style the close button */
+.mini-list .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.mini-list .close:hover {
+    background-color: #f44336;
+    color: white;
+}
